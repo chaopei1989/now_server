@@ -1,0 +1,76 @@
+{
+  "customBaseDir": "../logs/",
+  "customDefaultAtt": {
+    "type": "dateFile",
+    "absolute": true,
+    "alwaysIncludePattern": true
+  },
+  "appenders": [
+    {
+      "type": "console",
+      "category": "console"
+    },
+    {
+      "pattern": "yyyyMMdd.txt",
+      "category": "default"
+    },
+    {
+      "pattern": "yyyyMMdd.txt",
+      "category": "express"
+    },
+    {
+      "pattern": "yyyyMMdd.txt",
+      "category": "userLogin"
+    },
+    {
+      "pattern": "yyyyMMdd.txt",
+      "category": "channelRequest"
+    },
+    {
+      "pattern": "yyyyMMdd.txt",
+      "category": "nextMusic"
+    },
+    {
+      "pattern": "yyyyMMdd.txt",
+      "category": "playMusic"
+    },
+    {
+      "pattern": "yyyyMMdd.txt",
+      "category": "channelCommend"
+    },
+    {
+      "pattern": "yyyyMMdd.txt",
+      "category": "join"
+    },
+    {
+      "pattern": "yyyyMMdd.txt",
+      "category": "channelUsersAll"
+    },
+    {
+      "pattern": "yyyyMMdd.txt",
+      "category": "channelMusics"
+    },
+    {
+      "pattern": "yyyyMMdd.txt",
+      "category": "saveLastMusicLikeDislikeStatus"
+    },
+    {
+      "pattern": "yyyyMMdd.txt",
+      "category": "api"
+    }
+  ],
+  "levels": {
+    "default": "DEBUG",
+    "express": "DEBUG",
+    "userLogin": "DEBUG",
+    "channelRequest": "DEBUG",
+    "nextMusic": "DEBUG",
+    "playMusic": "DEBUG",
+    "channelCommend": "DEBUG",
+    "join": "DEBUG",
+    "channelUsersAll" : "DEBUG",
+    "channelMusics": "DEBUG",
+    "saveLastMusicLikeDislikeStatus": "DEBUG",
+    "api": "DEBUG"
+  }
+}
